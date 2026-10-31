@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.full-form {
+  position: relative;    
+  justify-self: center;
+  background-color: rgb(150, 150, 150);
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+  align-content: center;
+}
+table .checks {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 24px;
+}
+table .h1booking h1 {
+  position: relative;
+  color: rgb(0, 0, 0);
+  justify-items: center;
+  align-items: center;
+}
+table .checks td {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+input {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+}
